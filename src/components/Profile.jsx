@@ -38,4 +38,4 @@ const Profile = () => {
   );
 };
 
-export default SectionWrapper(Profile, "");
+export default SectionWrapper(Profile, "profile");
