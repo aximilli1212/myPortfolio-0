@@ -26,6 +26,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import ssnit from "./company/ssnit.jpg"
+import simpledealer from "./company/simpledealer.png";
+import qbe from "./company/qbe.jpg";
+import proxify from "./company/proxify.jpg";
+import covibes from "./company/covibes.jpg";
+import agro from "./company/agro.jpg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -56,6 +63,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  ssnit,
+  simpledealer,
+  qbe,
+  proxify,
+  covibes,
+  agro,
   carrent,
   jobit,
   tripguide,
