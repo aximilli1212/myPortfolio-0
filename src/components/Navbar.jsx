@@ -42,8 +42,8 @@ const Navbar = () => {
                 window.scrollTo(0, 0);
               }}
           >
-            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-            <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+            <img src={logo} alt='logo' className='w-9 h-9 object-contain shadow-2xl' />
+            <p className='text-white text-[18px] font-bold cursor-pointer flex ml-2'>
               Emmanuel Sackey &nbsp;
               <span className='sm:block hidden'> | Software Developer</span>
             </p>
