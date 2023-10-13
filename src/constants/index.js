@@ -270,7 +270,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/aximilli1212/fitrip-dash",
     },{
         name: "Fbs Innova",
         description:
@@ -290,7 +290,8 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        view_project_link: "https://play.google.com/store/apps/details?id=com.agroinnova.farmerbusinessschool2",
+
     },{
         name: "Akokotakra",
         description:
@@ -310,7 +311,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        view_project_link: "https://akokotakra.com",
     },
 ];
 

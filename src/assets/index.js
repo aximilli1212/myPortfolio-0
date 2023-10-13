@@ -11,6 +11,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import viewIcon from './viewIcon.svg'
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -72,4 +73,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  viewIcon
 };
