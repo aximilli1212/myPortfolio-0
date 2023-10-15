@@ -48,17 +48,19 @@ const ProjectCard = ({
                         />
                     </div>
                 }
-
-                <div
-                  onClick={() => window.open(source_code_link, "_blank")}
-                  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2'
-              >
-                <img
-                    src={viewIcon}
-                    alt='view project'
-                    className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
+                {
+                    view_project_link &&
+                    <div
+                        onClick={() => window.open(view_project_link, "_blank")}
+                        className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2'
+                    >
+                        <img
+                            src={viewIcon}
+                            alt='view project'
+                            className='rounded-full p-2 object-contain'
+                        />
+                    </div>
+                }
             </div>
           </div>
 
