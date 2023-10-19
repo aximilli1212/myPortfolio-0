@@ -37,6 +37,10 @@ import agro from "./company/agro.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import impact from "./projects/inpact.webp";
+import pricewise from "./projects/pricewise.webp";
+import akokomarket from "./projects/akokomarket.webp";
+import fbsinnova from "./projects/fbsinnova.webp";
 
 export {
   logo,
@@ -73,5 +77,9 @@ export {
   carrent,
   jobit,
   tripguide,
-  viewIcon
+  viewIcon,
+  impact,
+  pricewise,
+  akokomarket,
+  fbsinnova,
 };

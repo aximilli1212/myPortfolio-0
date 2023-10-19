@@ -15,11 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    carrent,
-    jobit,
-    tripguide,
-    threejs, proxify, simpledealer, agro, qbe, ssnit,
+    impact,
+    threejs,
+    proxify,
+    simpledealer,
+    agro,
+    qbe,
+    ssnit,
+    akokomarket,
+    pricewise,
+    fbsinnova
+    ,
 } from "../assets";
 
 export const navLinks = [
@@ -181,27 +187,24 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
+            "I thought it was impossible to make a website as beautiful as our product, but Nii proved me wrong.",
+        name: "Emmanuel Qwaku Botchway",
         designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        company: "Impact Insurance",
+    },
+    {
+        testimonial:
+            "I've never met a web developer who truly cares about their clients' success like Nii does.",
+        name: "Abraham Choi",
+        designation: "CEO",
+        company: "Simple Dealer, Inc.",
+    },
+    {
+        testimonial:
+            "Nii is one was the most dedicated and hardworking members of our team, his input increased productivity by 50%.",
+        name: "Moses Mallaghan",
+        designation: "CEO",
+        company: "Agroinnova Ghana",
     },
 ];
 
@@ -228,12 +231,55 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: akokomarket,
+        view_project_link: "https://akokomarket.com",
     },
     {
-        name: "Medingin",
+        name: "Fbs Innova",
         description:
-            "An extensive hospital management system that caters for all departments in the hospital.",
+            "An innovative solution that empowers smallholder farmers in Agriculture to become entrepreneurs the help technology.",
+        tags: [
+            {
+                name: "reactNative",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "graphql",
+                color: "green-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: fbsinnova,
+        view_project_link: "https://play.google.com/store/apps/details?id=com.agroinnova.farmerbusinessschool2",
+
+    },{
+        name: "Impact Insurance",
+        description:
+            "A responsive and interactive website for Impact Life and Insurance company limited.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodeJS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: impact,
+        view_project_link: "https://impact.gh.com",
+    },
+    {
+        name: "Pricewise",
+        description:
+            "A hobby project that allows users to scrape and monitor prices on amazon.",
         tags: [
             {
                 name: "react",
@@ -248,71 +294,31 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: pricewise,
+        source_code_link: "https://github.com/aximilli1212/next-scrapper",
     },
-    {
-        name: "FitTrip | Belfast",
-        description:
-            "A comprehensive gym management system designed to make it easy to maintain detailed records of  members, classes and trainers and other gym-related activities.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/aximilli1212/fitrip-dash",
-    },{
-        name: "Fbs Innova",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        view_project_link: "https://play.google.com/store/apps/details?id=com.agroinnova.farmerbusinessschool2",
+    // {
+    //     name: "Medingin",
+    //     description:
+    //         "An extensive hospital management system that caters for all departments in the hospital.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "restapi",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "scss",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: jobit,
+    //     source_code_link: "https://github.com/",
+    // },
 
-    },{
-        name: "Akokotakra",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        view_project_link: "https://akokotakra.com",
-    },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
