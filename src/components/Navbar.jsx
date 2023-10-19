@@ -44,7 +44,7 @@ const Navbar = () => {
           >
             <img src={logo} alt='logo' className='w-9 h-9 object-contain shadow-2xl' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex ml-2'>
-              Nii Sakie &nbsp;
+              Emmanuel Sackey &nbsp;
               <span className='sm:block hidden'> | Software Developer</span>
             </p>
           </Link>
