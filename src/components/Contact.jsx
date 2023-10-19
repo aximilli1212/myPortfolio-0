@@ -30,19 +30,20 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    // console.log({meta: import.meta.env.VITE_APP_EMAILJS_SERVICE_ID})
 
     emailjs
         .send(
-            import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-            import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+            "service_ulyxgig",
+            "template_y1p6ubp",
             {
               from_name: form.name,
-              to_name: "JavaScript Mastery",
+              to_name: "Nii Sakie",
               from_email: form.email,
-              to_email: "sujata@jsmastery.pro",
+              to_email: "aximilli1212@gmail.com",
               message: form.message,
             },
-            import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+            "2HweN4RDtpPBK9NcP"
         )
         .then(
             () => {

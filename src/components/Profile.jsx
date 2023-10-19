@@ -12,7 +12,7 @@ const Profile = () => {
           <div className="w-full md:w-auto md:mr-4">
               <img
                   className="h-30 w-30 rounded-full ring-2 ring-primary object-cover"
-                  src="src/assets/profile.png"
+                  src="https://res.cloudinary.com/fitrip/image/upload/v1697696159/profile_zs2kna.png"
                   alt=""
               />
           </div>
