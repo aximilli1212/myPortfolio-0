@@ -24,7 +24,7 @@ import {
     ssnit,
     akokomarket,
     pricewise,
-    fbsinnova, gwdp, simpleview
+    fbsinnova, gwdp, simpleview, truckr
     ,
 } from "../assets";
 
@@ -34,8 +34,11 @@ export const navLinks = [
         title: "About",
     },
     {
+        id: "portfolio",
+        title: "Porfolio",
+    },{
         id: "work",
-        title: "Work",
+        title: "Job History",
     },
     {
         id: "contact",
@@ -283,11 +286,34 @@ const projects = [
         ],
         image: simpleview,
         view_project_link: "https://app.simple-dealer.com",
+    },{
+        name: "Truckr",
+        description:
+            "An online truck booking platform that provides trucking logistics.",
+        tags: [
+            {
+                name: "vueJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vuetify",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodeJS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "serverless",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: truckr,
     },
     {
         name: "Fbs Innova",
         description:
-            "An innovative solution that empowers smallholder farmers in Agriculture to become entrepreneurs the help technology.",
+            "An innovative solution that empowers smallholder farmers in Agriculture to become entrepreneurs with the help of technology.",
         tags: [
             {
                 name: "reactNative",
