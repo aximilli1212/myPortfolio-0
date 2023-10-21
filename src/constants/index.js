@@ -24,7 +24,7 @@ import {
     ssnit,
     akokomarket,
     pricewise,
-    fbsinnova
+    fbsinnova, gwdp, simpleview
     ,
 } from "../assets";
 
@@ -210,6 +210,31 @@ const testimonials = [
 
 const projects = [
     {
+        name: "GWDP",
+        description:
+            "An dashboard for the women in poultry group to manage their members.",
+        tags: [
+            {
+                name: "VueJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "graphql",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "nodeJS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: gwdp,
+        view_project_link: "https://gwdpghana.com/",
+    },
+    {
         name: "Akokomarket",
         description:
             "An ecommerce platform that allows farmers to sell their produce directly to consumers, eliminating the need for middlemen.",
@@ -233,6 +258,31 @@ const projects = [
         ],
         image: akokomarket,
         view_project_link: "https://akokomarket.com",
+    },
+    {
+        name: "Simple Dealer",
+        description:
+            "An integrated platform for dealerships to submit loans to lenders.",
+        tags: [
+            {
+                name: "reactJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "materialUI",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodeJS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "serverless",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: simpleview,
+        view_project_link: "https://app.simple-dealer.com",
     },
     {
         name: "Fbs Innova",

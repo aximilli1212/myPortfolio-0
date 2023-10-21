@@ -40,7 +40,11 @@ import tripguide from "./tripguide.png";
 import impact from "./projects/inpact.webp";
 import pricewise from "./projects/pricewise.webp";
 import akokomarket from "./projects/akokomarket.webp";
-import fbsinnova from "./projects/fbsinnova.webp";
+import fbsinnova from "./projects/fbsmobile.webp";
+import gwdp from "./projects/gwdp.webp";
+import simpleview from "./projects/simpledealer.webp";
+import truckr from "./projects/truckr.webp";
+
 
 export {
   logo,
@@ -82,4 +86,7 @@ export {
   pricewise,
   akokomarket,
   fbsinnova,
+    gwdp,
+    simpleview,
+    truckr
 };
