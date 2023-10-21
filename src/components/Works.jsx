@@ -7,6 +7,7 @@ import { github, viewIcon } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import mixpanel from 'mixpanel-browser';
 
 const ProjectCard = ({
                        index,
@@ -17,6 +18,14 @@ const ProjectCard = ({
                        source_code_link,
                        view_project_link,
                      }) => {
+
+    const viewProject = (link) => {
+        mixpanel.track('Project Viewed', {
+            'project_link': link
+        })
+        window.open(link, "_blank")
+    }
+
   return (
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
@@ -38,7 +47,7 @@ const ProjectCard = ({
                 {
                     source_code_link &&
                     <div
-                        onClick={() => window.open(source_code_link, "_blank")}
+                        onClick={() => viewProject(source_code_link)}
                         className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
                     >
                         <img
@@ -51,7 +60,7 @@ const ProjectCard = ({
                 {
                     view_project_link &&
                     <div
-                        onClick={() => window.open(view_project_link, "_blank")}
+                        onClick={() => viewProject(view_project_link)}
                         className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2'
                     >
                         <img
